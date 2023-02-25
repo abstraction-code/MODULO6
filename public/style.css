@@ -1,0 +1,102 @@
+
+header {
+    background-color: #e6698471;
+
+}
+
+.alert {
+    z-index:100;
+    background-color: #f8d7da;
+    
+}
+
+.description{
+    height: 25px;
+    overflow: hidden;
+    transition: height .3s ease-in .3s;
+
+}
+
+.description:hover{
+    height: 80px;
+}
+
+.carrito{
+    min-height: 80vh;
+    max-width: 1000px;
+    margin:0 auto;
+    width:100%
+}
+
+.table__productos{
+    display:flex;
+}
+
+.table__productos> img{
+    width: 9rem;
+    object-fit:contain;
+    border-radius: 6px;
+    margin-right: 20px;
+
+}
+
+.table__cantidad > input {
+    width: 40px;
+    border: none;
+    outline:0;
+    font-size:16px;
+    font-weight:700 ;
+    margin: rigth 30px;
+    margin-bottom:20px;
+
+}
+
+.hide {
+    display: none;
+
+}
+
+.carousel-inner{
+    max-height: 20rem;
+}
+
+.card-group{
+    padding: auto;
+}
+
+#catalogo1 {
+    padding: px;
+}
+.primerenunciado{
+    font-family: Brush Script MT;
+    font-size: 1cm;
+    color:#0a040a7a;
+}
+
+.mainInicio{
+    font-family: Lucida Bright;
+    color:#2006207a;
+
+}
+.itemCartTotal{
+    font-family: Lucida Bright;
+    color:#3f2c3fa2;
+}
+.tab-pane{
+    font-family: Lucida Bright;
+    color:#3f2c3fa2;
+       
+    
+}
+
+.nav-pills .nav-link.active,
+.show>.nav-pills .nav-link{
+    background: #a3a0a2 !important;
+    color: rgb(73, 50, 73);
+    text-decoration: #0a040a7a;
+    
+}
+
+
+
+
